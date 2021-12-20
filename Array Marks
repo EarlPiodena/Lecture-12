@@ -16,7 +16,7 @@ int main()
         cin >> marks[i];
         
         while (cin.fail() || marks[i] > 100 || marks[i] < 0) {
-            cout << "invalid command, enter the marks again\n";
+            cout << "Invalid Input. Enter the marks again\n";
             cin.clear();
             cin.ignore();
             cin >> marks[i];
